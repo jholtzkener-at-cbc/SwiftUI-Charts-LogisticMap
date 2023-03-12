@@ -1,0 +1,13 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "e238d0fdaf6044d61d56f2bb3cd45e0634f949fca8a203cfb33ce01c00b9c043"
+build_start_time: [1678631231, 640520095]
+build_end_time: [1678631231, 661648035]
+inputs:
+  "/Users/cbcmusic/Documents/XcodeWorkspace/LogisticMapCharts+Combine/LogisticMapCharts+Combine/BucketChart.swift": !private [1678562080, 909941673]
+  "/Users/cbcmusic/Documents/XcodeWorkspace/LogisticMapCharts+Combine/LogisticMapCharts+Combine/ContentView.swift": !private [1678551863, 963689327]
+  "/Users/cbcmusic/Documents/XcodeWorkspace/LogisticMapCharts+Combine/LogisticMapCharts+Combine/LineChart.swift": !private [1678553975, 96755504]
+  "/Users/cbcmusic/Documents/XcodeWorkspace/LogisticMapCharts+Combine/LogisticMapCharts+Combine/LogisticMapCharts_CombineApp.swift": !private [1665404012, 41280269]
+  "/Users/cbcmusic/Documents/XcodeWorkspace/LogisticMapCharts+Combine/LogisticMapCharts+Combine/LogisticMapModel.swift": !private [1678561478, 735824584]
+  "/Users/cbcmusic/Documents/XcodeWorkspace/LogisticMapCharts+Combine/LogisticMapCharts+Combine/PointChart.swift": !private [1678555698, 69344043]
+  "/Users/cbcmusic/Documents/XcodeWorkspace/LogisticMapCharts+Combine/LogisticMapCharts+Combine/RangeSlider.swift": !private [1678562174, 243333339]
+  "/Users/cbcmusic/Documents/XcodeWorkspace/LogisticMapCharts+Combine/LogisticMapCharts+Combine/TestView.swift": !private [1678631230, 848047018]

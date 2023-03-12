@@ -1,0 +1,16 @@
+{
+  "source": "/Users/cbcmusic/Documents/XcodeWorkspace/LogisticMapCharts+Combine/LogisticMapCharts+Combine/PointChart.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "step"
+      },
+      {
+        "comment": "",
+        "key": "pop"
+      }
+    ]
+  },
+  "version": 1
+}

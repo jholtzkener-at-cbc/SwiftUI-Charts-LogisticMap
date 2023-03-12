@@ -1,0 +1,16 @@
+{
+  "source": "/Users/cbcmusic/Documents/XcodeWorkspace/LogisticMapCharts+Combine/LogisticMapCharts+Combine/BucketChart.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "bucket"
+      },
+      {
+        "comment": "",
+        "key": "number of values"
+      }
+    ]
+  },
+  "version": 1
+}

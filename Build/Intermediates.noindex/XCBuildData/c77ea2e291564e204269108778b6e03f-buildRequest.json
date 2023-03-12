@@ -1,0 +1,105 @@
+{
+  "_buildCommand2" : {
+    "command" : "preview"
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "03f022c1db2481ea201c6eb2d09e0c21544e543469d37a5cd3a1b26b89a568c6",
+      "parameters" : {
+        "action" : "build",
+        "activeArchitecture" : "arm64",
+        "activeRunDestination" : {
+          "disableOnlyActiveArch" : false,
+          "platform" : "iphonesimulator",
+          "sdk" : "iphonesimulator16.2",
+          "sdkVariant" : "iphonesimulator",
+          "supportedArchitectures" : [
+            "arm64",
+            "x86_64"
+          ],
+          "targetArchitecture" : "arm64"
+        },
+        "arenaInfo" : {
+          "buildIntermediatesPath" : "/Users/cbcmusic/Documents/XcodeWorkspace/LogisticMapCharts+Combine/Build/Intermediates.noindex",
+          "buildProductsPath" : "/Users/cbcmusic/Documents/XcodeWorkspace/LogisticMapCharts+Combine/Build/Products",
+          "derivedDataPath" : "/Users/cbcmusic/Library/Developer/Xcode/DerivedData",
+          "indexDataStoreFolderPath" : "/Users/cbcmusic/Library/Developer/Xcode/DerivedData/LogisticMapCharts+Combine-hgsalyidpbsvwqbonavrrlhthplw/Index.noindex/DataStore",
+          "indexEnableDataStore" : true,
+          "indexPCHPath" : "/Users/cbcmusic/Library/Developer/Xcode/DerivedData/LogisticMapCharts+Combine-hgsalyidpbsvwqbonavrrlhthplw/Index.noindex/PrecompiledHeaders",
+          "pchPath" : "/Users/cbcmusic/Documents/XcodeWorkspace/LogisticMapCharts+Combine/Build/Intermediates.noindex/PrecompiledHeaders"
+        },
+        "configurationName" : "Debug",
+        "overrides" : {
+          "synthesized" : {
+            "table" : {
+              "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "",
+              "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "",
+              "ASSETCATALOG_FILTER_FOR_THINNING_DEVICE_CONFIGURATION" : "iPhone15,3",
+              "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+              "DSTROOT" : "/Users/cbcmusic/Documents/XcodeWorkspace/LogisticMapCharts+Combine/Build/Intermediates.noindex/Previews/LogisticMapCharts+Combine/ReleaseProducts",
+              "ENABLE_ONLY_ACTIVE_RESOURCES" : "NO",
+              "ENABLE_PREVIEWS" : "YES",
+              "OBJROOT" : "/Users/cbcmusic/Documents/XcodeWorkspace/LogisticMapCharts+Combine/Build/Intermediates.noindex/Previews/LogisticMapCharts+Combine/Intermediates.noindex",
+              "SYMROOT" : "/Users/cbcmusic/Documents/XcodeWorkspace/LogisticMapCharts+Combine/Build/Intermediates.noindex/Previews/LogisticMapCharts+Combine/Products",
+              "TARGET_DEVICE_IDENTIFIER" : "7D180E59-A3D7-400B-AC2F-61F03F1BDDC0",
+              "TARGET_DEVICE_MODEL" : "iPhone15,3",
+              "TARGET_DEVICE_OS_VERSION" : "16.2",
+              "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "containerPath" : "/Users/cbcmusic/Documents/XcodeWorkspace/LogisticMapCharts+Combine/LogisticMapCharts+Combine.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator16.2",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/cbcmusic/Documents/XcodeWorkspace/LogisticMapCharts+Combine/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/cbcmusic/Documents/XcodeWorkspace/LogisticMapCharts+Combine/Build/Products",
+      "derivedDataPath" : "/Users/cbcmusic/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/cbcmusic/Library/Developer/Xcode/DerivedData/LogisticMapCharts+Combine-hgsalyidpbsvwqbonavrrlhthplw/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/cbcmusic/Library/Developer/Xcode/DerivedData/LogisticMapCharts+Combine-hgsalyidpbsvwqbonavrrlhthplw/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/cbcmusic/Documents/XcodeWorkspace/LogisticMapCharts+Combine/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPhone15,3",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "16.2",
+          "ASSETCATALOG_FILTER_FOR_THINNING_DEVICE_CONFIGURATION" : "iPhone15,3",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "TARGET_DEVICE_IDENTIFIER" : "7D180E59-A3D7-400B-AC2F-61F03F1BDDC0",
+          "TARGET_DEVICE_MODEL" : "iPhone15,3",
+          "TARGET_DEVICE_OS_VERSION" : "16.2",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

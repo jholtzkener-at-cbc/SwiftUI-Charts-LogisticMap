@@ -1,0 +1,16 @@
+{
+  "source": "/Users/cbcmusic/Documents/XcodeWorkspace/LogisticMapCharts+Combine/Build/Intermediates.noindex/Previews/LogisticMapCharts+Combine/Intermediates.noindex/LogisticMapCharts+Combine.build/Debug-iphonesimulator/LogisticMapCharts+Combine.build/Objects-normal/arm64/TestView.1.preview-thunk.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "r = %lf"
+      },
+      {
+        "comment": "",
+        "key": "Chart Type"
+      }
+    ]
+  },
+  "version": 1
+}
