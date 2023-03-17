@@ -1,0 +1,16 @@
+{
+  "source": "/Users/cbcmusic/Documents/XcodeWorkspace/LogisticMapCharts+Combine/LogisticMapCharts/varyR/LineChart.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "step"
+      },
+      {
+        "comment": "",
+        "key": "population"
+      }
+    ]
+  },
+  "version": 1
+}

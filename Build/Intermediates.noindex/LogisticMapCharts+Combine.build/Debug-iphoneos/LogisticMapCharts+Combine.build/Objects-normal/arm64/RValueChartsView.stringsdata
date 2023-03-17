@@ -1,0 +1,32 @@
+{
+  "source": "/Users/cbcmusic/Documents/XcodeWorkspace/LogisticMapCharts+Combine/LogisticMapCharts+Combine/varyR/RValueChartsView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Chart Type"
+      },
+      {
+        "comment": "",
+        "key": "initial x: %.03f"
+      },
+      {
+        "comment": "",
+        "key": "Num steps: %.0f"
+      },
+      {
+        "comment": "",
+        "key": "r = %lf"
+      },
+      {
+        "comment": "",
+        "key": "Num steps: %lf"
+      },
+      {
+        "comment": "",
+        "key": "%.3f"
+      }
+    ]
+  },
+  "version": 1
+}

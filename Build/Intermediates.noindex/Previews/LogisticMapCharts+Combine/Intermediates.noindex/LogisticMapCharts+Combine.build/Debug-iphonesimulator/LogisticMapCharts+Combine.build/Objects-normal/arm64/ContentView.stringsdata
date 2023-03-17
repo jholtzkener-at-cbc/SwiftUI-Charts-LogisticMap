@@ -1,5 +1,16 @@
 {
   "source": "/Users/cbcmusic/Documents/XcodeWorkspace/LogisticMapCharts+Combine/LogisticMapCharts+Combine/ContentView.swift",
-  "tables": {},
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "variable r-values"
+      },
+      {
+        "comment": "",
+        "key": "all r-values"
+      }
+    ]
+  },
   "version": 1
 }

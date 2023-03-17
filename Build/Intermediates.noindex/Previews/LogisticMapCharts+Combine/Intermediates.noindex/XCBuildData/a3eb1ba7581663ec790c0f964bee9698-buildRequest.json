@@ -1,0 +1,57 @@
+{
+  "_buildCommand2" : {
+    "command" : "preview"
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "03f022c1db2481ea201c6eb2d09e0c21544e543469d37a5cd3a1b26b89a568c6"
+    }
+  ],
+  "containerPath" : "/Users/cbcmusic/Documents/XcodeWorkspace/LogisticMapCharts+Combine/LogisticMapCharts+Combine.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator16.2",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/cbcmusic/Documents/XcodeWorkspace/LogisticMapCharts+Combine/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/cbcmusic/Documents/XcodeWorkspace/LogisticMapCharts+Combine/Build/Products",
+      "derivedDataPath" : "/Users/cbcmusic/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/cbcmusic/Library/Developer/Xcode/DerivedData/LogisticMapCharts+Combine-hgsalyidpbsvwqbonavrrlhthplw/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/cbcmusic/Library/Developer/Xcode/DerivedData/LogisticMapCharts+Combine-hgsalyidpbsvwqbonavrrlhthplw/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/cbcmusic/Documents/XcodeWorkspace/LogisticMapCharts+Combine/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "DSTROOT" : "/Users/cbcmusic/Documents/XcodeWorkspace/LogisticMapCharts+Combine/Build/Intermediates.noindex/Previews/LogisticMapCharts+Combine/ReleaseProducts",
+          "ENABLE_PREVIEWS" : "YES",
+          "OBJROOT" : "/Users/cbcmusic/Documents/XcodeWorkspace/LogisticMapCharts+Combine/Build/Intermediates.noindex/Previews/LogisticMapCharts+Combine/Intermediates.noindex",
+          "SYMROOT" : "/Users/cbcmusic/Documents/XcodeWorkspace/LogisticMapCharts+Combine/Build/Intermediates.noindex/Previews/LogisticMapCharts+Combine/Products"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

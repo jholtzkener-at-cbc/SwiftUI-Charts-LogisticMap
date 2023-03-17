@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B23740928F443EC007A4C9A /* LogisticMapChartsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B23740828F443EC007A4C9A /* LogisticMapChartsApp.swift */; };
+		5B23740B28F443EC007A4C9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B23740A28F443EC007A4C9A /* ContentView.swift */; };
+		5B23740D28F443ED007A4C9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B23740C28F443ED007A4C9A /* Assets.xcassets */; };
+		5B23741028F443ED007A4C9A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B23740F28F443ED007A4C9A /* Preview Assets.xcassets */; };
+		5B23741728F443FF007A4C9A /* LogisticMapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B23741628F443FF007A4C9A /* LogisticMapModel.swift */; };
+		5B23741928F45B83007A4C9A /* RValueChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B23741828F45B83007A4C9A /* RValueChartsView.swift */; };
+		5B23741B28F464FB007A4C9A /* RangeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B23741A28F464FB007A4C9A /* RangeSlider.swift */; };
+		5B3A78A629BCE748000DDDD0 /* LineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3A78A529BCE748000DDDD0 /* LineChart.swift */; };
+		5B3A78A829BCE9CE000DDDD0 /* PointChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3A78A729BCE9CE000DDDD0 /* PointChart.swift */; };
+		5B3A78AA29BD044E000DDDD0 /* BucketChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3A78A929BD044E000DDDD0 /* BucketChart.swift */; };
+		5B3A78AD29BE29F6000DDDD0 /* MetaLogisticMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3A78AC29BE29F6000DDDD0 /* MetaLogisticMapView.swift */; };
+		5B3A78B029BE2B09000DDDD0 /* MetaLogisticMapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3A78AF29BE2B09000DDDD0 /* MetaLogisticMapModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B23740528F443EC007A4C9A /* LogisticMapCharts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LogisticMapCharts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B23740828F443EC007A4C9A /* LogisticMapChartsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogisticMapChartsApp.swift; sourceTree = "<group>"; };
+		5B23740A28F443EC007A4C9A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5B23740C28F443ED007A4C9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B23740F28F443ED007A4C9A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5B23741628F443FF007A4C9A /* LogisticMapModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogisticMapModel.swift; sourceTree = "<group>"; };
+		5B23741828F45B83007A4C9A /* RValueChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RValueChartsView.swift; sourceTree = "<group>"; };
+		5B23741A28F464FB007A4C9A /* RangeSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeSlider.swift; sourceTree = "<group>"; };
+		5B3A78A529BCE748000DDDD0 /* LineChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChart.swift; sourceTree = "<group>"; };
+		5B3A78A729BCE9CE000DDDD0 /* PointChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointChart.swift; sourceTree = "<group>"; };
+		5B3A78A929BD044E000DDDD0 /* BucketChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketChart.swift; sourceTree = "<group>"; };
+		5B3A78AC29BE29F6000DDDD0 /* MetaLogisticMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetaLogisticMapView.swift; sourceTree = "<group>"; };
+		5B3A78AF29BE2B09000DDDD0 /* MetaLogisticMapModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetaLogisticMapModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B23740228F443EC007A4C9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B2373FC28F443EB007A4C9A = {
+			isa = PBXGroup;
+			children = (
+				5B23740728F443EC007A4C9A /* LogisticMapCharts */,
+				5B23740628F443EC007A4C9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B23740628F443EC007A4C9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B23740528F443EC007A4C9A /* LogisticMapCharts.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B23740728F443EC007A4C9A /* LogisticMapCharts */ = {
+			isa = PBXGroup;
+			children = (
+				5B23740828F443EC007A4C9A /* LogisticMapChartsApp.swift */,
+				5B23740A28F443EC007A4C9A /* ContentView.swift */,
+				5B30DA2729C4D1EA001A8ECF /* MetaView */,
+				5B3A78AB29BE298D000DDDD0 /* varyR */,
+				5B23740C28F443ED007A4C9A /* Assets.xcassets */,
+				5B23740E28F443ED007A4C9A /* Preview Content */,
+			);
+			path = LogisticMapCharts;
+			sourceTree = "<group>";
+		};
+		5B23740E28F443ED007A4C9A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5B23740F28F443ED007A4C9A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5B30DA2729C4D1EA001A8ECF /* MetaView */ = {
+			isa = PBXGroup;
+			children = (
+				5B3A78AC29BE29F6000DDDD0 /* MetaLogisticMapView.swift */,
+				5B3A78AF29BE2B09000DDDD0 /* MetaLogisticMapModel.swift */,
+			);
+			path = MetaView;
+			sourceTree = "<group>";
+		};
+		5B3A78AB29BE298D000DDDD0 /* varyR */ = {
+			isa = PBXGroup;
+			children = (
+				5B23741828F45B83007A4C9A /* RValueChartsView.swift */,
+				5B23741628F443FF007A4C9A /* LogisticMapModel.swift */,
+				5B23741A28F464FB007A4C9A /* RangeSlider.swift */,
+				5B3A78AE29BE2A49000DDDD0 /* r-value charts */,
+				5B3A78A529BCE748000DDDD0 /* LineChart.swift */,
+				5B3A78A729BCE9CE000DDDD0 /* PointChart.swift */,
+				5B3A78A929BD044E000DDDD0 /* BucketChart.swift */,
+			);
+			path = varyR;
+			sourceTree = "<group>";
+		};
+		5B3A78AE29BE2A49000DDDD0 /* r-value charts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "r-value charts";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B23740428F443EC007A4C9A /* LogisticMapCharts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B23741328F443ED007A4C9A /* Build configuration list for PBXNativeTarget "LogisticMapCharts" */;
+			buildPhases = (
+				5B23740128F443EC007A4C9A /* Sources */,
+				5B23740228F443EC007A4C9A /* Frameworks */,
+				5B23740328F443EC007A4C9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LogisticMapCharts;
+			productName = "LogisticMapCharts+Combine";
+			productReference = 5B23740528F443EC007A4C9A /* LogisticMapCharts.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B2373FD28F443EB007A4C9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					5B23740428F443EC007A4C9A = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 5B23740028F443EB007A4C9A /* Build configuration list for PBXProject "LogisticMapCharts" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B2373FC28F443EB007A4C9A;
+			productRefGroup = 5B23740628F443EC007A4C9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B23740428F443EC007A4C9A /* LogisticMapCharts */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B23740328F443EC007A4C9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B23741028F443ED007A4C9A /* Preview Assets.xcassets in Resources */,
+				5B23740D28F443ED007A4C9A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B23740128F443EC007A4C9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B23741928F45B83007A4C9A /* RValueChartsView.swift in Sources */,
+				5B3A78A829BCE9CE000DDDD0 /* PointChart.swift in Sources */,
+				5B3A78B029BE2B09000DDDD0 /* MetaLogisticMapModel.swift in Sources */,
+				5B23741B28F464FB007A4C9A /* RangeSlider.swift in Sources */,
+				5B3A78A629BCE748000DDDD0 /* LineChart.swift in Sources */,
+				5B23740B28F443EC007A4C9A /* ContentView.swift in Sources */,
+				5B23741728F443FF007A4C9A /* LogisticMapModel.swift in Sources */,
+				5B3A78AA29BD044E000DDDD0 /* BucketChart.swift in Sources */,
+				5B3A78AD29BE29F6000DDDD0 /* MetaLogisticMapView.swift in Sources */,
+				5B23740928F443EC007A4C9A /* LogisticMapChartsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5B23741128F443ED007A4C9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B23741228F443ED007A4C9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B23741428F443ED007A4C9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LogisticMapCharts/Preview Content\"";
+				DEVELOPMENT_TEAM = F94W8C594M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.cbc.LogisticMapCharts-Combine";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		5B23741528F443ED007A4C9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LogisticMapCharts/Preview Content\"";
+				DEVELOPMENT_TEAM = F94W8C594M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.cbc.LogisticMapCharts-Combine";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B23740028F443EB007A4C9A /* Build configuration list for PBXProject "LogisticMapCharts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B23741128F443ED007A4C9A /* Debug */,
+				5B23741228F443ED007A4C9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B23741328F443ED007A4C9A /* Build configuration list for PBXNativeTarget "LogisticMapCharts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B23741428F443ED007A4C9A /* Debug */,
+				5B23741528F443ED007A4C9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B2373FD28F443EB007A4C9A /* Project object */;
+}

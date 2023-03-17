@@ -1,0 +1,20 @@
+{
+  "source": "/Users/cbcmusic/Documents/XcodeWorkspace/LogisticMapCharts+Combine/LogisticMapCharts/MetaView/MetaLogisticMapView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Logistic Map - Behaviour across r-values"
+      },
+      {
+        "comment": "",
+        "key": "r-value"
+      },
+      {
+        "comment": "",
+        "key": "x-value"
+      }
+    ]
+  },
+  "version": 1
+}

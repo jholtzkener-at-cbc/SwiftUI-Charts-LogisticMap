@@ -1,0 +1,64 @@
+{
+  "_buildCommand2" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "80db366838253d255fa3c91009833c20544e543469d37a5cd3a1b26b89a568c6"
+    }
+  ],
+  "containerPath" : "/Users/cbcmusic/Documents/XcodeWorkspace/LogisticMapCharts+Combine/LogisticMapCharts.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator16.2",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/cbcmusic/Documents/XcodeWorkspace/LogisticMapCharts+Combine/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/cbcmusic/Documents/XcodeWorkspace/LogisticMapCharts+Combine/Build/Products",
+      "derivedDataPath" : "/Users/cbcmusic/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/cbcmusic/Library/Developer/Xcode/DerivedData/LogisticMapCharts-czjfbtjyooaqnufjngjxjuhblxtz/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/cbcmusic/Library/Developer/Xcode/DerivedData/LogisticMapCharts-czjfbtjyooaqnufjngjxjuhblxtz/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/cbcmusic/Documents/XcodeWorkspace/LogisticMapCharts+Combine/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPad14,1",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "16.2",
+          "ASSETCATALOG_FILTER_FOR_THINNING_DEVICE_CONFIGURATION" : "iPad14,1",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "ENABLE_PREVIEWS" : "NO",
+          "TARGET_DEVICE_IDENTIFIER" : "23C323F6-23AC-4A9D-9C1D-B7175FBADDD8",
+          "TARGET_DEVICE_MODEL" : "iPad14,1",
+          "TARGET_DEVICE_OS_VERSION" : "16.2",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

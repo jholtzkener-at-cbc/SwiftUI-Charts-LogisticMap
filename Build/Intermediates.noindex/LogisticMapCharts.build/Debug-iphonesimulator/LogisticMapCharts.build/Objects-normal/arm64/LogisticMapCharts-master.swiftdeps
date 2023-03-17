@@ -1,0 +1,15 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "2d8701a56e26855efc65ab9f3bdc91b373b575810b4d64e0b18bb70e1180abdc"
+build_start_time: [1679084551, 996872901]
+build_end_time: [1679084553, 118069171]
+inputs:
+  "/Users/cbcmusic/Documents/XcodeWorkspace/LogisticMapCharts+Combine/LogisticMapCharts/ContentView.swift": [1679084451, 187019348]
+  "/Users/cbcmusic/Documents/XcodeWorkspace/LogisticMapCharts+Combine/LogisticMapCharts/LogisticMapChartsApp.swift": [1679084451, 200440883]
+  "/Users/cbcmusic/Documents/XcodeWorkspace/LogisticMapCharts+Combine/LogisticMapCharts/MetaView/MetaLogisticMapModel.swift": [1679084464, 164827346]
+  "/Users/cbcmusic/Documents/XcodeWorkspace/LogisticMapCharts+Combine/LogisticMapCharts/MetaView/MetaLogisticMapView.swift": [1679084464, 121484279]
+  "/Users/cbcmusic/Documents/XcodeWorkspace/LogisticMapCharts+Combine/LogisticMapCharts/varyR/BucketChart.swift": [1679084464, 140833854]
+  "/Users/cbcmusic/Documents/XcodeWorkspace/LogisticMapCharts+Combine/LogisticMapCharts/varyR/LineChart.swift": [1679084464, 109165906]
+  "/Users/cbcmusic/Documents/XcodeWorkspace/LogisticMapCharts+Combine/LogisticMapCharts/varyR/LogisticMapModel.swift": [1679084464, 153551101]
+  "/Users/cbcmusic/Documents/XcodeWorkspace/LogisticMapCharts+Combine/LogisticMapCharts/varyR/PointChart.swift": [1679084464, 115766048]
+  "/Users/cbcmusic/Documents/XcodeWorkspace/LogisticMapCharts+Combine/LogisticMapCharts/varyR/RValueChartsView.swift": [1679084464, 93671798]
+  "/Users/cbcmusic/Documents/XcodeWorkspace/LogisticMapCharts+Combine/LogisticMapCharts/varyR/RangeSlider.swift": [1679084464, 127326011]

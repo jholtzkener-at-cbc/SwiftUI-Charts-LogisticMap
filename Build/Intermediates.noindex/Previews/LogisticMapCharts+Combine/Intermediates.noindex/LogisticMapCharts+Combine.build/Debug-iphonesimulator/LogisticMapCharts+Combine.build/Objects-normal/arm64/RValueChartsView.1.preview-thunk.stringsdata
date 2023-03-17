@@ -1,0 +1,20 @@
+{
+  "source": "/Users/cbcmusic/Documents/XcodeWorkspace/LogisticMapCharts+Combine/Build/Intermediates.noindex/Previews/LogisticMapCharts+Combine/Intermediates.noindex/LogisticMapCharts+Combine.build/Debug-iphonesimulator/LogisticMapCharts+Combine.build/Objects-normal/arm64/RValueChartsView.1.preview-thunk.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Chart Type"
+      },
+      {
+        "comment": "",
+        "key": "r = %lf"
+      },
+      {
+        "comment": "",
+        "key": "Num steps: %lf"
+      }
+    ]
+  },
+  "version": 1
+}
