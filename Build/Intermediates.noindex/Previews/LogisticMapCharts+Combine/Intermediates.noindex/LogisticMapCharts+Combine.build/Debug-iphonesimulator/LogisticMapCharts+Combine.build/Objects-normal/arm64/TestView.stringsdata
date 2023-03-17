@@ -4,11 +4,11 @@
     "Localizable": [
       {
         "comment": "",
-        "key": "r = %lf"
+        "key": "Chart Type"
       },
       {
         "comment": "",
-        "key": "Chart Type"
+        "key": "r = %lf"
       }
     ]
   },

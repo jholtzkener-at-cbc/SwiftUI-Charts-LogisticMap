@@ -12,11 +12,13 @@
 		5B23740D28F443ED007A4C9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B23740C28F443ED007A4C9A /* Assets.xcassets */; };
 		5B23741028F443ED007A4C9A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B23740F28F443ED007A4C9A /* Preview Assets.xcassets */; };
 		5B23741728F443FF007A4C9A /* LogisticMapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B23741628F443FF007A4C9A /* LogisticMapModel.swift */; };
-		5B23741928F45B83007A4C9A /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B23741828F45B83007A4C9A /* TestView.swift */; };
+		5B23741928F45B83007A4C9A /* RValueChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B23741828F45B83007A4C9A /* RValueChartsView.swift */; };
 		5B23741B28F464FB007A4C9A /* RangeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B23741A28F464FB007A4C9A /* RangeSlider.swift */; };
 		5B3A78A629BCE748000DDDD0 /* LineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3A78A529BCE748000DDDD0 /* LineChart.swift */; };
 		5B3A78A829BCE9CE000DDDD0 /* PointChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3A78A729BCE9CE000DDDD0 /* PointChart.swift */; };
 		5B3A78AA29BD044E000DDDD0 /* BucketChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3A78A929BD044E000DDDD0 /* BucketChart.swift */; };
+		5B3A78AD29BE29F6000DDDD0 /* MetaLogisticMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3A78AC29BE29F6000DDDD0 /* MetaLogisticMapView.swift */; };
+		5B3A78B029BE2B09000DDDD0 /* MetaLogisticMapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3A78AF29BE2B09000DDDD0 /* MetaLogisticMapModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,11 +28,13 @@
 		5B23740C28F443ED007A4C9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B23740F28F443ED007A4C9A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5B23741628F443FF007A4C9A /* LogisticMapModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogisticMapModel.swift; sourceTree = "<group>"; };
-		5B23741828F45B83007A4C9A /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		5B23741828F45B83007A4C9A /* RValueChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RValueChartsView.swift; sourceTree = "<group>"; };
 		5B23741A28F464FB007A4C9A /* RangeSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeSlider.swift; sourceTree = "<group>"; };
 		5B3A78A529BCE748000DDDD0 /* LineChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChart.swift; sourceTree = "<group>"; };
 		5B3A78A729BCE9CE000DDDD0 /* PointChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointChart.swift; sourceTree = "<group>"; };
 		5B3A78A929BD044E000DDDD0 /* BucketChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketChart.swift; sourceTree = "<group>"; };
+		5B3A78AC29BE29F6000DDDD0 /* MetaLogisticMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetaLogisticMapView.swift; sourceTree = "<group>"; };
+		5B3A78AF29BE2B09000DDDD0 /* MetaLogisticMapModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetaLogisticMapModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,12 +69,8 @@
 			children = (
 				5B23740828F443EC007A4C9A /* LogisticMapCharts_CombineApp.swift */,
 				5B23740A28F443EC007A4C9A /* ContentView.swift */,
-				5B23741628F443FF007A4C9A /* LogisticMapModel.swift */,
-				5B23741828F45B83007A4C9A /* TestView.swift */,
-				5B23741A28F464FB007A4C9A /* RangeSlider.swift */,
-				5B3A78A529BCE748000DDDD0 /* LineChart.swift */,
-				5B3A78A729BCE9CE000DDDD0 /* PointChart.swift */,
-				5B3A78A929BD044E000DDDD0 /* BucketChart.swift */,
+				5B30DA2729C4D1EA001A8ECF /* MetaView */,
+				5B3A78AB29BE298D000DDDD0 /* varyR */,
 				5B23740C28F443ED007A4C9A /* Assets.xcassets */,
 				5B23740E28F443ED007A4C9A /* Preview Content */,
 			);
@@ -83,6 +83,36 @@
 				5B23740F28F443ED007A4C9A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5B30DA2729C4D1EA001A8ECF /* MetaView */ = {
+			isa = PBXGroup;
+			children = (
+				5B3A78AC29BE29F6000DDDD0 /* MetaLogisticMapView.swift */,
+				5B3A78AF29BE2B09000DDDD0 /* MetaLogisticMapModel.swift */,
+			);
+			path = MetaView;
+			sourceTree = "<group>";
+		};
+		5B3A78AB29BE298D000DDDD0 /* varyR */ = {
+			isa = PBXGroup;
+			children = (
+				5B23741828F45B83007A4C9A /* RValueChartsView.swift */,
+				5B23741628F443FF007A4C9A /* LogisticMapModel.swift */,
+				5B23741A28F464FB007A4C9A /* RangeSlider.swift */,
+				5B3A78AE29BE2A49000DDDD0 /* r-value charts */,
+				5B3A78A529BCE748000DDDD0 /* LineChart.swift */,
+				5B3A78A729BCE9CE000DDDD0 /* PointChart.swift */,
+				5B3A78A929BD044E000DDDD0 /* BucketChart.swift */,
+			);
+			path = varyR;
+			sourceTree = "<group>";
+		};
+		5B3A78AE29BE2A49000DDDD0 /* r-value charts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "r-value charts";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,13 +185,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B23741928F45B83007A4C9A /* TestView.swift in Sources */,
+				5B23741928F45B83007A4C9A /* RValueChartsView.swift in Sources */,
 				5B3A78A829BCE9CE000DDDD0 /* PointChart.swift in Sources */,
+				5B3A78B029BE2B09000DDDD0 /* MetaLogisticMapModel.swift in Sources */,
 				5B23741B28F464FB007A4C9A /* RangeSlider.swift in Sources */,
 				5B3A78A629BCE748000DDDD0 /* LineChart.swift in Sources */,
 				5B23740B28F443EC007A4C9A /* ContentView.swift in Sources */,
 				5B23741728F443FF007A4C9A /* LogisticMapModel.swift in Sources */,
 				5B3A78AA29BD044E000DDDD0 /* BucketChart.swift in Sources */,
+				5B3A78AD29BE29F6000DDDD0 /* MetaLogisticMapView.swift in Sources */,
 				5B23740928F443EC007A4C9A /* LogisticMapCharts_CombineApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

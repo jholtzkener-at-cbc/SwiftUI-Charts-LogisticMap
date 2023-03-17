@@ -9,7 +9,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        TestView()
+        TabView {
+            RValueChartsView()
+                .tabItem {
+                    Text("variable r-values")}
+            MetaLogisticMapView()
+                .tabItem {Text("all r-values")}
+        }
     }
 }
 

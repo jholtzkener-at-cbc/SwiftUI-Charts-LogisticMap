@@ -1,5 +1,5 @@
 {
-  "source": "/Users/cbcmusic/Documents/XcodeWorkspace/LogisticMapCharts+Combine/LogisticMapCharts+Combine/LineChart.swift",
+  "source": "/Users/cbcmusic/Documents/XcodeWorkspace/LogisticMapCharts+Combine/LogisticMapCharts+Combine/varyR/LineChart.swift",
   "tables": {
     "Localizable": [
       {
@@ -8,7 +8,7 @@
       },
       {
         "comment": "",
-        "key": "pop"
+        "key": "population"
       }
     ]
   },
